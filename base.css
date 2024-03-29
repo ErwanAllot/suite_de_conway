@@ -1,0 +1,31 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*hyper imp !!! */
+}
+
+:root {
+    --couleur_un: #0c2530;
+    --couleur_deux : #133D34;
+    --couleur_trois : #1B4A47;
+    --couleur_quatre : #4C7471;
+    --couleur_cinq : #8FBAB0;
+  }
+
+body {
+    background-color: var(--couleur_cinq);
+}
+
+.centrer_centrer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centrer_espacer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}

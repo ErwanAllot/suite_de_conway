@@ -1,0 +1,74 @@
+#le_titre{
+    /* width: 100%;
+    height: 60px; */
+}
+
+#john_conway{
+    /* width: 380px; */
+    height: 350px;
+}
+
+#suite_conway{
+    height: 350px;
+}
+
+.PPP{
+    /* align-items: center; */
+    /* width: 100%; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bordure{
+    border: 1px solid red;
+}
+
+#legende_de_l_image_de_john_h_conway{
+    height: 250px;
+    width: 250px;
+}
+
+#legende_de_l_image_de_la_suite_de_conway{
+    height: 250px;
+    /* width: 250px; */
+}
+
+.cent{
+    width: 200px;
+    text-align: justify;
+}
+
+#papa {
+    position:relative;
+}
+
+#logo_de_wikipedia{
+    width: 100px;
+    position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+
+#explication_suite{
+    margin-left: 100px;
+}
+
+#contexte_de_la_page{
+    margin-left: 100px;
+}
+
+/* #section{
+    width: 80%;
+} */
+
+#fieldset{
+    width: 80%;
+}
+
+#numberChosen{
+    width: 60%;
+    height: 30px;
+}
